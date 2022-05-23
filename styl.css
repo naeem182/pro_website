@@ -1,0 +1,90 @@
+* {
+    font-family: 'Akshar', sans-serif;
+
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.text_clor {
+    color: coral;
+}
+
+section {
+    display: flex;
+
+    margin-left: 0px;
+
+}
+
+section div button {
+    background-color: rgb(234, 46, 71);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px 20px;
+    border: none;
+
+}
+
+section div button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.myimg {
+    width: 30%;
+    margin-left: 100px;
+}
+
+.about_myimg {
+    width: 50%;
+    margin-left: 100px;
+}
+
+div ul {
+    display: flex;
+
+    list-style: none;
+    align-items: center;
+
+
+
+}
+
+div ul li {
+
+    margin-left: 14px;
+}
+
+div ul li a {
+
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.project {
+    display: flex;
+
+    margin: 5px;
+}
+
+.project_div {
+
+    margin-left: 5px;
+}
+
+.project_div img {
+    width: 80%;
+
+}
