@@ -13,6 +13,10 @@ p {
     padding: 10px;
 }
 
+.bac {
+    background-image: url(images/images/bac.jpg);
+}
+
 .text_clor {
     color: coral;
 }
@@ -20,9 +24,24 @@ p {
 section {
     display: flex;
 
-    margin-left: 0px;
 
 }
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 115px;
+}
+
+nav {
+    display: flex;
+
+    align-items: center;
+    margin-top: 10px;
+}
+
+
 
 section div button {
     background-color: rgb(234, 46, 71);
@@ -49,7 +68,7 @@ section div button a {
     margin-left: 100px;
 }
 
-div ul {
+nav div ul {
     display: flex;
 
     list-style: none;
@@ -59,9 +78,9 @@ div ul {
 
 }
 
-div ul li {
-
-    margin-left: 14px;
+nav div {
+    display: flex;
+    justify-content: space-between;
 }
 
 div ul li a {
